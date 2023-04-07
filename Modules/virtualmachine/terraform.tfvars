@@ -1,4 +1,4 @@
-configuration_virtualmachine_multi=[
+configuration_virtualmachine=[
 {
 "virtual_machine_location" = "westus"  
 "virtual_machine_name" = "oldmachinee"  
