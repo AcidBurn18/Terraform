@@ -1,4 +1,4 @@
-variable "configuration_virtualmachine_multi" {
+variable "configuration_virtualmachine" {
   default = [{
     virtual_machine_resource_group_name="rg"
     virtual_machine_name="default"
