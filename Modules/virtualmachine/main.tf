@@ -1,6 +1,6 @@
 locals {
   serverconfig = [
-    for srv in var.configuration_virtualmachine_multi : [
+    for srv in var.configuration_virtualmachine : [
       for i in range(1, srv.virtual_machine_count + 1) : {
         virtual_machine_name                = "${srv.virtual_machine_name}-${i}"
         address_prefix                      = srv.address_prefix
