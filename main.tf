@@ -14,6 +14,6 @@ provider "azurerm" {
 
 module "virtualmachine" {
   source                             = "./Modules/virtualmachine"
-  configuration_virtualmachine_multi = var.configuration_virtualmachine
+  configuration_virtualmachine = var.configuration_virtualmachine
 
 }
